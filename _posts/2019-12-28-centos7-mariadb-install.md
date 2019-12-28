@@ -15,7 +15,7 @@ CentOS7에 MariaDB 10.4 설치하기
 
 저는 CentOS7과 MariaDB 10.4 버전이 필요하므로 아래와 같이 선택하였습니다.
 
-![](./images/centos7-mariadb-install/1.PNG)
+![](http://hongji3354.github.io/images/centos7-mariadb-install/1.PNG)
 
 
 
@@ -45,7 +45,7 @@ sudo yum install MariaDB-server MariaDB-clienty
 rpm -qa | grep MariaDB
 ```
 설치가 정상적으로 진행 되었다면 아래의 그림과 같이 나타납니다.
-![](./images/centos7-mariadb-install/2.PNG)
+![](http://hongji3354.github.io/images/centos7-mariadb-install/2.PNG)
 
 MariaDB 를 시작 합니다.
 ```
@@ -57,7 +57,7 @@ MariaDB가 정상적으로 실행되었는지 확인합니다.
 systemctl status mariadb
 ```
 정상적으로 실행 되었다면 아래의 그림 같이 **Active가 active (running)**로 되어 있습니다.
-![](./images/centos7-mariadb-install/3.PNG)
+![](http://hongji3354.github.io/images/centos7-mariadb-install/3.PNG)
 
 
 
@@ -83,7 +83,7 @@ sudo mysql_secure_installation
 - Reload privilege tables now? [Y/N]
   - **설정 정보 저장 여부**로 잘못 설정하신 부분이 있다면 N를 선택 후 설정을 다시 진행하시면 됩니다.
 
-![](./images/centos7-mariadb-install/4.PNG)
+![](http://hongji3354.github.io/images/centos7-mariadb-install/4.PNG)
 
 ## 3-2. encoding 설정
 
@@ -123,7 +123,7 @@ character set이 정상적으로 적용되었다면 아래 이미지 처럼 Serv
 ```
 status
 ```
-![](./images/centos7-mariadb-install/4.PNG)
+![](http://hongji3354.github.io/images/centos7-mariadb-install/4.PNG)
 
 
 
